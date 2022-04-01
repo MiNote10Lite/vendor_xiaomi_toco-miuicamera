@@ -1,4 +1,4 @@
 # Camera
 
--system/priv-app/MiuiCamera/MiuiCamera.apk
+-system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Camera2,GoogleCameraGo
 -system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk
