@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
 
 # Props
 PRODUCT_PRODUCT_PROPERTIES += \
+	ro.com.google.lens.oem_camera_package=com.android.camera \
 	ro.hardware.camera=xiaomi
 
 $(call inherit-product, vendor/xiaomi/toco-miuicamera/common/common-vendor.mk)
