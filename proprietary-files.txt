@@ -1,4 +1,7 @@
-# Camera
+# All unpinned blobs below are extracted from miui_TOCOGlobal_V13.0.4.0.SFNMIXM
 
--system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Camera2,GoogleCameraGo
+system/etc/public.libraries-xiaomi.txt
+-system/lib64/libdoc_photo.so
+-system/lib64/libdoc_photo_c++_shared.so
+-system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Camera2,GoogleCameraGo,Aperture|8f5f478151783102cf320fa5dd6b656af174ad33
 -system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk

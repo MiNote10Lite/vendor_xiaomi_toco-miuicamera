@@ -5,6 +5,11 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/toco-miuicamera/common
 
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/toco-miuicamera/common/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
+
 PRODUCT_PACKAGES += \
+    libdoc_photo \
+    libdoc_photo_c++_shared \
     MiuiCamera \
     MiuiExtraPhoto
