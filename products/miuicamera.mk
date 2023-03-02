@@ -21,7 +21,9 @@ PRODUCT_COPY_FILES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
-    vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miui.xml
+    vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-mimoji.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mimoji.xml \
+    vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
+    vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miuiextraphoto.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuiextraphoto.xml
 
 # Sysconfig
 PRODUCT_COPY_FILES += \
