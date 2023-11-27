@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
+BOARD_VENDOR_SEPOLICY_DIRS += vendor/xiaomi/toco-miuicamera/sepolicy/vendor
+
 include vendor/xiaomi/toco-miuicamera/common/BoardConfigVendor.mk
