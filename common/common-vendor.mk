@@ -11,5 +11,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdoc_photo \
     libdoc_photo_c++_shared \
+    libSNPE \
     MiuiCamera \
     MiuiExtraPhoto
