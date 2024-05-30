@@ -18,6 +18,10 @@
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/configs/device_features/toco.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/toco.xml
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    MiuiCamera
+
 # Permissions
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
