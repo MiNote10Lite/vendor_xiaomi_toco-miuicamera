@@ -14,4 +14,17 @@
 # limitations under the License.
 #
 
+# Device features
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/toco-miuicamera/configs/device_features/toco.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/device_features/toco.xml
+
+# Permissions
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/toco-miuicamera/configs/default-permissions/miuicamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/miuicamera-permissions.xml \
+    vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miui.xml
+
+# Sysconfig
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/toco-miuicamera/configs/sysconfig/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
+
 $(call inherit-product, vendor/xiaomi/toco-miuicamera/common/common-vendor.mk)

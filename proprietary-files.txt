@@ -1,0 +1,4 @@
+# Camera
+
+-system/priv-app/MiuiCamera/MiuiCamera.apk
+-system/priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk
