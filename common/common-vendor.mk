@@ -9,6 +9,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/common/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
 
 PRODUCT_PACKAGES += \
+    libarcsoft_single_chart_calibration \
+    libcamera_algoup_jni.xiaomi \
+    libcamera_mianode_jni.xiaomi \
     libdoc_photo \
     libdoc_photo_c++_shared \
     libSNPE \

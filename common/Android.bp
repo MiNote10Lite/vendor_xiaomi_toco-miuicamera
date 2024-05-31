@@ -8,6 +8,54 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libarcsoft_single_chart_calibration",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libarcsoft_single_chart_calibration.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcamera_algoup_jni.xiaomi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libcamera_algoup_jni.xiaomi.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcamera_mianode_jni.xiaomi",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libcamera_mianode_jni.xiaomi.so"],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libdoc_photo",
 	owner: "xiaomi",
 	strip: {
