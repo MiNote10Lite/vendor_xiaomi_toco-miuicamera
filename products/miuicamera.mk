@@ -29,6 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml \
     vendor/xiaomi/toco-miuicamera/configs/permissions/privapp-permissions-miuiextraphoto.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuiextraphoto.xml
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # Sysconfig
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/toco-miuicamera/configs/sysconfig/miuicamera-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/miuicamera-hiddenapi-package-whitelist.xml
